@@ -6,7 +6,7 @@ project:
 # These variables define the book contents - adjust them as necessary
 book:
   # [A] BOOK TITLE
-  title: "THE TITLE OF THE BOOK"
+  title: "BM425 Workshop 2:"
   reader-mode: true
   
   # The cover image and favicon; these may not need to be changed
@@ -17,20 +17,20 @@ book:
   # [B] FOOTER TEXT
   page-footer:
     left: |
-      THIS IS A SHORT PIECE OF FOOTER TEXT NAMING THE BOOK/AUTHORS
+      This workshop was written by Dr Eva Heinz, Dr Morgan Feeney, and Dr Leighton Pritchard
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
 
   # Sets the URL for the repository
   # [C] GITHUB REPOSITORY URL
-  repo-url: https://github.com/sipbs-compbiol/REPOSITORY
+  repo-url: https://github.com/sipbs-compbiol/BM425-Workshop-2
   repo-branch: main
   repo-actions: [edit, issue]
 
   # Sets author information and publication/presentation date
   # [D] AUTHOR INFORMATION AND PUBLICATION/PRESENTATION DATE
-  author: "AUTHOR NAME"
-  date: "DD/MM/YY"
+  author: "Eva Heinz, Morgan Feeney, and Leighton Pritchard"
+  date: "13/05/25"
 
   # Define chapters and sections here
   # [E] CHAPTERS AND SECTIONS
@@ -59,7 +59,7 @@ format:
     theme: cosmo
     code-link: true
     
-    author-meta: "Leighton Pritchard"
+    author-meta: "Eva Heinz, Morgan Feeney, Leighton Pritchard"
     css: custom-styles.css
 #  pdf:
 #    documentclass: scrreprt
